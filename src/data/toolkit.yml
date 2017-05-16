@@ -1,0 +1,31 @@
+colors:
+  base:
+    black: "#4A4A4A"
+    chalk: "#FBFBFB"
+    grey: "#E5E5E5"
+    white: "#FFFFFF"
+  yellow:
+    yellow: "#F5CB23"
+    yellow-light: "#F8E71C"
+    yellow-dark: "#F5A623"
+    yellow-alpha: "#F8F1C6"
+  green:
+    green: "#B9BF99"  
+    green-light: "#D1D9A7"
+    green-dark: "#969C79"
+    green-alpha: "#CCD4A5"
+  aqua:
+    aqua: "#7ACDD6"  
+    aqua-light: "#A3E8F0"
+    aqua-dark: "#66ABB3"
+    aqua-alpha: "#A3E8F0"
+  coral:
+    coral: "#FF8573"  
+    coral-light: "#FFB9AE"
+    coral-dark: "#E3634F"
+    coral-alpha: "#FF8573"
+  cement:
+    cement: "#AEB5B5"  
+    cement-light: "#CBD3D4"
+    cement-dark: "#8E9394"
+    cement-alpha: "#CBD3D4"
