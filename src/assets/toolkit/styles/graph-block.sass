@@ -1,5 +1,9 @@
 .graph-block
 	:width calc(100% - 340px)
+	figure
+		&:first-of-type
+			h2 
+				:margin 100px 0 30px
 	h2 
 		:font-size 2.2rem
 		:font-weight normal
@@ -7,3 +11,5 @@
 	p 
 		:font-size 1.4rem
 		:line-height 2.2rem	
+	figure + figure
+		:margin-top 40px	

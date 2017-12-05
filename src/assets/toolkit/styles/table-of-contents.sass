@@ -1,0 +1,41 @@
+.table-content 
+	:background $yellow
+	:width 100%
+	:position fixed
+	:top 59px
+	:bottom 0
+	:z-index 10
+	:overflow scroll
+	:height 0
+	:transition 0.3s all ease
+	.table-item 
+		:opacity 0
+	&.off
+		.table-item 
+			:opacity 0
+			:transition-delay 0.0s
+			:transition 0.4s all ease
+	&.active
+		:height auto
+		:transition delay 0.4s
+		.table-item
+			:opacity 1
+			:transition 0.4s all ease
+			:transition-delay 0.3s
+
+	.wrapper--flex
+		:flex-wrap wrap
+	.table-item 
+		:width calc((100% / 3) - ((90px * 2) / 3))
+		:margin-right 90px
+		:margin-top 60px
+		&:nth-of-type(3n + 3)
+			:margin-right 0
+		span 
+			:font-size 6.4rem
+			:color $yellow-dark
+			:font-weight bold
+		h2 
+			:font-size 2.1rem
+			:color $white
+			:line-height 2.5rem		
